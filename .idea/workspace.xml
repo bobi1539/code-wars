@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34448553-0f3e-4c0d-bcd3-2b1544cd5b89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/ConsicutiveStrings.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/StringToCamelCase.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/SumTheSum.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/VersionManager.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/WhoLikeIt.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/A.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Consonant.java" root0="SKIP_INSPECTION" />
@@ -36,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/SumOfDigits.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/SumofCubes.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/other/QuickSort.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/zero/kyu6/VersionManagerTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,13 +61,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.Main" />
+  <component name="RunManager" selected="JUnit.VersionManagerTest">
+    <configuration name="VersionManagerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.app.VersionManagerApp" />
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.*" />
+          <option name="PATTERN" value="com.zero.kyu6.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,21 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.other.QuickSort" />
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringToCamelCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.StringToCamelCase" />
+    <configuration name="VersionManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +83,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTheSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.SumTheSum" />
+    <configuration name="VersionManagerTest.initializationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +98,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
+      <option name="METHOD_NAME" value="initializationTests(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhoLikeIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.WhoLikeIt" />
+    <configuration name="VersionManagerTest.randomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -121,17 +114,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
+      <option name="METHOD_NAME" value="randomTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VersionManagerTest.rollbacksTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
+      <option name="METHOD_NAME" value="rollbacksTests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SumTheSum" />
-        <item itemvalue="Application.WhoLikeIt" />
-        <item itemvalue="Application.StringToCamelCase" />
+        <item itemvalue="JUnit.VersionManagerTest" />
+        <item itemvalue="JUnit.VersionManagerTest.initializationTests" />
+        <item itemvalue="JUnit.VersionManagerTest.randomTest" />
+        <item itemvalue="Application.VersionManagerApp" />
+        <item itemvalue="JUnit.VersionManagerTest.rollbacksTests" />
       </list>
     </recent_temporary>
   </component>
