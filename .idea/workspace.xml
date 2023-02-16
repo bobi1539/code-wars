@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="34448553-0f3e-4c0d-bcd3-2b1544cd5b89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/kyu6/VersionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/kyu6/VersionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/kyu6/app/VersionManagerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/kyu6/app/VersionManagerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/kyu6/VersionManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/kyu6/VersionManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VersionManagerTest.initializationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VersionManagerTest.initializationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.kyu6" />
       <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
-      <option name="METHOD_NAME" value="initializationTests(java.lang.String,java.lang.String)" />
+      <option name="METHOD_NAME" value="initializationTests" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,10 +143,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.VersionManagerTest" />
-        <item itemvalue="JUnit.VersionManagerTest.initializationTests" />
+        <item itemvalue="JUnit.VersionManagerTest.initializationTests (1)" />
         <item itemvalue="JUnit.VersionManagerTest.randomTest" />
-        <item itemvalue="Application.VersionManagerApp" />
         <item itemvalue="JUnit.VersionManagerTest.rollbacksTests" />
+        <item itemvalue="Application.VersionManagerApp" />
       </list>
     </recent_temporary>
   </component>

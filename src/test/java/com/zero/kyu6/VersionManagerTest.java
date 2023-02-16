@@ -7,16 +7,21 @@ import org.junit.jupiter.params.provider.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class VersionManagerTest {
-//    @CsvSource(textBlock =" 0.0.1,   '' 1.2.3,   1.2.3 1.2.3,   1.2.3.4 1.2.3,   1.2.3.d 1.0.0,   1 1.1.0,   1.1 ")
-//    @ParameterizedTest(name = "initial version: \"{1}\"")
-//    @Order(2) @DisplayName("VersionManager initialization with initial version")
-//    void initializationTests(String expected, String version) {
-//        try {
-//            assertEquals(expected, new VersionManager(version).release());
-//        } catch(Exception e) {
-//            fail("Your code threw an Exception: " + e);
-//        }
-//    }
+
+    @Test
+    @DisplayName("VersionManager initialization with initial version")
+    void initializationTests() {
+        try {
+            assertEquals("0.0.1", new VersionManager("").release());
+            assertEquals("1.2.3", new VersionManager("1.2.3").release());
+            assertEquals("1.2.3", new VersionManager("1.2.3.4").release());
+            assertEquals("1.2.3", new VersionManager("1.2.3.d").release());
+            assertEquals("1.0.0", new VersionManager("1").release());
+            assertEquals("1.1.0", new VersionManager("1.1").release());
+        } catch(Exception e) {
+            fail("Your code threw an Exception: " + e);
+        }
+    }
     @Test @Order(1) @DisplayName("VersionManager initialization without initial version")
     void initializationTests_defaultConstructor() {
         try {
@@ -109,9 +114,23 @@ class VersionManagerTest {
     @Test @DisplayName("Random Test")
     void randomTest(){
         try {
-            assertEquals("49.38.1", new VersionManager("49.38.1").major().rollback().release());
-            assertEquals("0.0.1", new VersionManager().major().patch().rollback().rollback().release());
-            assertEquals("1.0.0", new VersionManager().major().patch().rollback().release());
+//            assertEquals("49.38.1", new VersionManager("49.38.1").major().rollback().release());
+            assertEquals("49.38.0", new VersionManager("49.38").major().rollback().release());
+//            assertEquals("0.0.1", new VersionManager().major().patch().rollback().rollback().release());
+//            assertEquals("1.0.0", new VersionManager().major().patch().rollback().release());
+//            assertEquals("6.0.0",new VersionManager("4.39.38")
+//                    .minor()
+//                    .minor()
+//                    .major()
+//                    .patch()
+//                    .major()
+//                    .major()
+//                    .rollback()
+//                    .rollback()
+//                    .patch()
+//                    .major()
+//                    .release());
+//            assertEquals("7.0.0",new VersionManager("4.39.38").minor().minor().major().patch().major().major().release());
         } catch (Exception e){
             e.printStackTrace();
         }

@@ -7,19 +7,16 @@ import java.util.List;
 public class VersionManager {
 
     private String version;
-    private String currentVersion;
-    private String lastVersion;
     private final String defaultVersion = "0.0.1";
     private int major;
     private int minor;
     private int patch;
-    private int lastMajor;
-    private int lastMinor;
-    private int lastPatch;
     private List<String> listCallOrderMethod = new ArrayList<>();
+    private List<String> listHistoryVersion = new ArrayList<>();
 
     public VersionManager(){
         this.version = this.defaultVersion;
+        this.listHistoryVersion.add(this.version);
         this.breakVersion();
     }
 
@@ -32,39 +29,37 @@ public class VersionManager {
             }
             this.version = version;
         }
+        this.listHistoryVersion.add(this.version);
         this.breakVersion();
     }
 
     public VersionManager major(){
         this.listCallOrderMethod.add("major");
-        this.lastMajor = this.major;
-        this.lastMinor = this.minor;
-        this.lastPatch = this.patch;
 
         this.major += 1;
         this.minor = 0;
         this.patch = 0;
 
+        this.buildVersion();
         return this;
     }
 
     public VersionManager minor(){
         this.listCallOrderMethod.add("minor");
-        this.lastMinor = this.minor;
-        this.lastPatch = this.patch;
 
         this.minor += 1;
         this.patch = 0;
 
+        this.buildVersion();
         return this;
     }
 
     public VersionManager patch(){
         this.listCallOrderMethod.add("patch");
-        this.lastPatch = this.patch;
 
         this.patch += 1;
 
+        this.buildVersion();
         return this;
     }
 
@@ -78,34 +73,49 @@ public class VersionManager {
     }
 
     public String release(){
+
         for(String s : listCallOrderMethod){
             System.out.println("order method : " + s);
         }
 
-        System.out.println("major : " + this.major);
-        System.out.println("minor : " + this.minor);
-        System.out.println("patch : " + this.patch);
+        for(String s : listHistoryVersion){
+            System.out.println("history version : " + s);
+        }
+        System.out.println("version : " + this.version);
+        return this.version;
+    }
 
+    private void buildVersion(){
         StringBuilder builder = new StringBuilder();
         builder.append(this.major).append(".");
         builder.append(this.minor).append(".");
         builder.append(this.patch);
-        this.currentVersion = builder.toString();
-
-        if(this.currentVersion.equals("0.0.0")){
-            this.currentVersion = this.defaultVersion;
-        }
-
-        System.out.println("release version : " + this.currentVersion);
-        return this.currentVersion;
+        this.version = builder.toString();
+        this.listHistoryVersion.add(this.version);
     }
 
     private void breakVersion(){
         String[] versions = this.version.split("\\.");
+        String[] newVersions = new String[3];
+        if(versions.length == 1){
+            newVersions[0] = versions[0];
+            newVersions[1] = "0";
+            newVersions[2] = "0";
+        } else if(versions.length == 2){
+            newVersions[0] = versions[0];
+            newVersions[1] = versions[1];
+            newVersions[2] = "0";
+        } else {
+            newVersions[0] = versions[0];
+            newVersions[1] = versions[1];
+            newVersions[2] = versions[2];
+        }
+
         try {
-            this.major = Integer.parseInt(versions[0]);
-            this.minor = Integer.parseInt(versions[1]);
-            this.patch = Integer.parseInt(versions[2]);
+            this.major = Integer.parseInt(newVersions[0]);
+            this.minor = Integer.parseInt(newVersions[1]);
+            this.patch = Integer.parseInt(newVersions[2]);
+            this.buildVersion();
         } catch (Exception e){
             e.printStackTrace();
         }
@@ -128,20 +138,8 @@ public class VersionManager {
     private void substractVersion(){
         for(int i = 0; i < listCallOrderMethod.size(); i++){
             if(listCallOrderMethod.get(i).equals("rollback") && i != 0){
-                String versionToSub = listCallOrderMethod.get(i - 1);
-                switch (versionToSub){
-                    case "major":
-                        this.major = this.lastMajor;
-                        this.minor = this.lastMinor;
-                        this.patch = this.lastPatch;
-                        break;
-                    case "minor":
-                        this.patch = this.lastPatch;
-                        this.minor = this.lastMinor;
-                        break;
-                    case "patch":
-                        this.patch = this.lastPatch;
-                }
+                this.version = this.listHistoryVersion.get(this.listHistoryVersion.size() - 2);
+                this.listHistoryVersion.remove(this.listHistoryVersion.size() - 1);
                 listCallOrderMethod.remove(i);
                 listCallOrderMethod.remove(i - 1);
             }
