@@ -7,7 +7,6 @@ import java.util.Arrays;
 public class VersionManagerApp {
     public static void main(String[] args) throws Exception {
 
-        new VersionManager().major().patch().rollback().rollback().release();
-//        new VersionManager().major().rollback().release();
+        new VersionManager("46.45").patch().major().rollback().rollback().minor().rollback().patch().major().patch().minor().rollback().release();
     }
 }

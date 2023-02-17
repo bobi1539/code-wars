@@ -114,23 +114,26 @@ class VersionManagerTest {
     @Test @DisplayName("Random Test")
     void randomTest(){
         try {
-//            assertEquals("49.38.1", new VersionManager("49.38.1").major().rollback().release());
+            assertEquals("49.38.1", new VersionManager("49.38.1").major().rollback().release());
             assertEquals("49.38.0", new VersionManager("49.38").major().rollback().release());
-//            assertEquals("0.0.1", new VersionManager().major().patch().rollback().rollback().release());
-//            assertEquals("1.0.0", new VersionManager().major().patch().rollback().release());
-//            assertEquals("6.0.0",new VersionManager("4.39.38")
-//                    .minor()
-//                    .minor()
-//                    .major()
-//                    .patch()
-//                    .major()
-//                    .major()
-//                    .rollback()
-//                    .rollback()
-//                    .patch()
-//                    .major()
-//                    .release());
-//            assertEquals("7.0.0",new VersionManager("4.39.38").minor().minor().major().patch().major().major().release());
+            assertEquals("0.0.1", new VersionManager().major().patch().rollback().rollback().release());
+            assertEquals("1.0.0", new VersionManager().major().patch().rollback().release());
+            assertEquals("6.0.0",new VersionManager("4.39.38")
+                    .minor()
+                    .minor()
+                    .major()
+                    .patch()
+                    .major()
+                    .major()
+                    .rollback()
+                    .rollback()
+                    .patch()
+                    .major()
+                    .release());
+            assertEquals("7.0.0",new VersionManager("4.39.38").minor().minor().major().patch().major().major().release());
+            assertEquals("47.0.1", new VersionManager("46.45").patch().major().rollback().rollback().minor().rollback().patch().major().patch().minor().rollback().release());
+            assertEquals("60.47.41", new VersionManager("60.47.39.g.57").minor().rollback().minor().rollback().patch().patch().release());
+            assertEquals("60.47.39", new VersionManager("60.47.39.g.57").minor().rollback().minor().rollback().release());
         } catch (Exception e){
             e.printStackTrace();
         }

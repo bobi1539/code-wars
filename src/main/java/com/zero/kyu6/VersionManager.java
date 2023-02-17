@@ -1,7 +1,6 @@
 package com.zero.kyu6;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class VersionManager {
@@ -16,7 +15,6 @@ public class VersionManager {
 
     public VersionManager(){
         this.version = this.defaultVersion;
-        this.listHistoryVersion.add(this.version);
         this.breakVersion();
     }
 
@@ -27,9 +25,8 @@ public class VersionManager {
             if(!this.isValidVersion(version)){
                 throw new Exception("Error occured while parsing version!");
             }
-            this.version = version;
+            this.setUpVersion(version);
         }
-        this.listHistoryVersion.add(this.version);
         this.breakVersion();
     }
 
@@ -81,8 +78,24 @@ public class VersionManager {
         for(String s : listHistoryVersion){
             System.out.println("history version : " + s);
         }
+
+        System.out.println("\nmajor : " + this.major);
+        System.out.println("minor : " + this.minor);
+        System.out.println("patch : " + this.patch);
+
         System.out.println("version : " + this.version);
         return this.version;
+    }
+
+    private void setUpVersion(String version){
+        String[] versions = version.split("\\.");
+        if(versions.length == 1){
+            version = versions[0] + ".0.0";
+        }
+        if (versions.length == 2){
+            version = versions[0] + "." + versions[1] + ".0";
+        }
+        this.version = version;
     }
 
     private void buildVersion(){
@@ -96,25 +109,10 @@ public class VersionManager {
 
     private void breakVersion(){
         String[] versions = this.version.split("\\.");
-        String[] newVersions = new String[3];
-        if(versions.length == 1){
-            newVersions[0] = versions[0];
-            newVersions[1] = "0";
-            newVersions[2] = "0";
-        } else if(versions.length == 2){
-            newVersions[0] = versions[0];
-            newVersions[1] = versions[1];
-            newVersions[2] = "0";
-        } else {
-            newVersions[0] = versions[0];
-            newVersions[1] = versions[1];
-            newVersions[2] = versions[2];
-        }
-
         try {
-            this.major = Integer.parseInt(newVersions[0]);
-            this.minor = Integer.parseInt(newVersions[1]);
-            this.patch = Integer.parseInt(newVersions[2]);
+            this.major = Integer.parseInt(versions[0]);
+            this.minor = Integer.parseInt(versions[1]);
+            this.patch = Integer.parseInt(versions[2]);
             this.buildVersion();
         } catch (Exception e){
             e.printStackTrace();
@@ -142,6 +140,11 @@ public class VersionManager {
                 this.listHistoryVersion.remove(this.listHistoryVersion.size() - 1);
                 listCallOrderMethod.remove(i);
                 listCallOrderMethod.remove(i - 1);
+
+                String[] split = this.version.split("\\.");
+                this.major = Integer.parseInt(split[0]);
+                this.minor = Integer.parseInt(split[1]);
+                this.patch = Integer.parseInt(split[2]);
             }
         }
     }
