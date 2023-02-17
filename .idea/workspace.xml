@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34448553-0f3e-4c0d-bcd3-2b1544cd5b89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/kyu6/VersionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/kyu6/VersionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/kyu6/app/VersionManagerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/kyu6/app/VersionManagerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/kyu6/VersionManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/kyu6/VersionManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Covfefe.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Kata.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/LargestElements.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Shifter.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/SumOfDigits.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/SumofCubes.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/other/QuickSort.java" root0="SKIP_INSPECTION" />
@@ -63,78 +61,81 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.VersionManagerTest">
-    <configuration name="VersionManagerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.app.VersionManagerApp" />
+  <component name="RunManager" selected="JUnit.ShifterTest">
+    <configuration name="ShifterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.kyu6.app.*" />
+          <option name="PATTERN" value="com.zero.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VersionManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.ShifterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VersionManagerTest.initializationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShifterTest.js" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.kyu6.*" />
+          <option name="PATTERN" value="com.zero.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
-      <option name="METHOD_NAME" value="initializationTests" />
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.ShifterTest" />
+      <option name="METHOD_NAME" value="js" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VersionManagerTest.randomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShifterTest.on" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.kyu6.*" />
+          <option name="PATTERN" value="com.zero.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
-      <option name="METHOD_NAME" value="randomTest" />
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.ShifterTest" />
+      <option name="METHOD_NAME" value="on" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VersionManagerTest.rollbacksTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShifterTest.osIsUpdated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.kyu6.*" />
+          <option name="PATTERN" value="com.zero.kyu7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
-      <option name="METHOD_NAME" value="rollbacksTests" />
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.ShifterTest" />
+      <option name="METHOD_NAME" value="osIsUpdated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShifterTest.whoIsWho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.ShifterTest" />
+      <option name="METHOD_NAME" value="whoIsWho" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VersionManagerTest" />
-        <item itemvalue="JUnit.VersionManagerTest.randomTest" />
-        <item itemvalue="Application.VersionManagerApp" />
-        <item itemvalue="JUnit.VersionManagerTest.initializationTests (1)" />
-        <item itemvalue="JUnit.VersionManagerTest.rollbacksTests" />
+        <item itemvalue="JUnit.ShifterTest" />
+        <item itemvalue="JUnit.ShifterTest.js" />
+        <item itemvalue="JUnit.ShifterTest.on" />
+        <item itemvalue="JUnit.ShifterTest.whoIsWho" />
+        <item itemvalue="JUnit.ShifterTest.osIsUpdated" />
       </list>
     </recent_temporary>
   </component>
