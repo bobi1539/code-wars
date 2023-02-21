@@ -1,5 +1,7 @@
 package com.zero.kyu7;
 
+import java.util.Date;
+
 public class Consonant {
     public static void main(String[] args) {
         System.out.println(getCount(""));
@@ -9,6 +11,8 @@ public class Consonant {
         System.out.println(getCount("helLo world"));
         System.out.println(getCount("h^$&^#$&^elLo world"));
         System.out.println(getCount("123_cb"));
+
+        Date date = new Date();
     }
 
     public static int getCount(String str) {
