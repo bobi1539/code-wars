@@ -63,7 +63,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/bobi/Documents/DSI/Development/Development-1/webtool-sme/webgui&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bobi/Documents/DSI/Development/Development-1/webtool-cbi/WebGUI&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -74,21 +74,38 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GCDTest.testGcd">
-    <configuration name="AppUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zero.other.AppUser" />
+  <component name="RunManager" selected="JUnit.CenturyFromYearTest">
+    <configuration name="CenturyFromYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.other.*" />
+          <option name="PATTERN" value="com.zero.kyu8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu8" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu8.CenturyFromYearTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDTest.testGcd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EvaporatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.EvaporatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -98,28 +115,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.kyu7" />
       <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.GCDTest" />
-      <option name="METHOD_NAME" value="testGcd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RockPapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.RockPapperTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockPapperTest.draws" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JomoPipiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -128,36 +129,34 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.RockPapperTest" />
-      <option name="METHOD_NAME" value="draws" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.JomoPipiTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockPapperTest.player1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VersionManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zero.kyu7.*" />
+          <option name="PATTERN" value="com.zero.kyu6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.RockPapperTest" />
-      <option name="METHOD_NAME" value="player1Wins" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GCDTest.testGcd" />
-        <item itemvalue="JUnit.RockPapperTest" />
-        <item itemvalue="JUnit.RockPapperTest.player1Wins" />
-        <item itemvalue="JUnit.RockPapperTest.draws" />
-        <item itemvalue="Application.AppUser" />
+        <item itemvalue="JUnit.CenturyFromYearTest" />
+        <item itemvalue="JUnit.JomoPipiTest" />
+        <item itemvalue="JUnit.GCDTest" />
+        <item itemvalue="JUnit.EvaporatorTest" />
+        <item itemvalue="JUnit.VersionManagerTest" />
       </list>
     </recent_temporary>
   </component>
