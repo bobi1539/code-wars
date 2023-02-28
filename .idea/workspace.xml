@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34448553-0f3e-4c0d-bcd3-2b1544cd5b89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/kyu7/BuilderDS.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,38 +80,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseWordsTest.exampleCases">
-    <configuration name="NumberUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.NumberUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberUtilsTest.exampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.NumberUtilsTest" />
-      <option name="METHOD_NAME" value="exampleTests" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PeopleTest">
     <configuration name="PairOfGlovesTest.tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
@@ -122,6 +92,37 @@
       <option name="PACKAGE_NAME" value="com.zero.kyu6" />
       <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.PairOfGlovesTest" />
       <option name="METHOD_NAME" value="tests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeopleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.PeopleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeopleTest.testSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.PeopleTest" />
+      <option name="METHOD_NAME" value="testSample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PeopleTest" />
+        <item itemvalue="JUnit.PeopleTest.testSample" />
         <item itemvalue="JUnit.ReverseWordsTest.exampleCases" />
         <item itemvalue="JUnit.PairOfGlovesTest.tests" />
         <item itemvalue="JUnit.RemoveConsicutiveWordTest.basicTest" />
-        <item itemvalue="JUnit.NumberUtilsTest" />
-        <item itemvalue="JUnit.NumberUtilsTest.exampleTests" />
       </list>
     </recent_temporary>
   </component>

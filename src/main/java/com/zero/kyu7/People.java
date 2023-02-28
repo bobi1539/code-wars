@@ -2,16 +2,16 @@ package com.zero.kyu7;
 
 public class People{
     private int age;
-    public String name;
-    public String lastName;
-    public String city;
-    public String job;
+    private String name;
+    private String lastName;
+    private String city;
+    private String job;
     public static People people;
 
-    String greet="hello";
+    private String GREET="hello";
 
     public String greet(){
-        return greet+" my name is "+name;
+        return GREET+" my name is "+name;
     }
 
     public People name(String name){
@@ -60,7 +60,7 @@ public class People{
     }
 
     public String getGreet() {
-        return greet;
+        return GREET;
     }
 
     public static People builder(){
