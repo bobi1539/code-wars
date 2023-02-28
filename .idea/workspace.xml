@@ -24,6 +24,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/ConsicutiveStrings.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/NumberUtils.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/PairOfGloves.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/StringToCamelCase.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/SumTheSum.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/VersionManager.java" root0="SKIP_INSPECTION" />
@@ -35,6 +37,8 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/JomoPipi.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Kata.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/LargestElements.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/RemoveConsicutiveWord.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/ReverseWords.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/RockPapper.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Shifter.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/SumOfDigits.java" root0="SKIP_INSPECTION" />
@@ -45,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/other/QuickSort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/other/User.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/zero/kyu6/VersionManagerTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/zero/kyu7/ReverseWordsTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,68 +79,8 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CenturyFromYearTest">
-    <configuration name="CenturyFromYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu8" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu8.CenturyFromYearTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvaporatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.EvaporatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GCDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.GCDTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JomoPipiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.JomoPipiTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VersionManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ReverseWordsTest.exampleCases">
+    <configuration name="NumberUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -144,19 +89,83 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.VersionManagerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.NumberUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberUtilsTest.exampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.NumberUtilsTest" />
+      <option name="METHOD_NAME" value="exampleTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PairOfGlovesTest.tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.PairOfGlovesTest" />
+      <option name="METHOD_NAME" value="tests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveConsicutiveWordTest.basicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.RemoveConsicutiveWordTest" />
+      <option name="METHOD_NAME" value="basicTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWordsTest.exampleCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.ReverseWordsTest" />
+      <option name="METHOD_NAME" value="exampleCases" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CenturyFromYearTest" />
-        <item itemvalue="JUnit.JomoPipiTest" />
-        <item itemvalue="JUnit.GCDTest" />
-        <item itemvalue="JUnit.EvaporatorTest" />
-        <item itemvalue="JUnit.VersionManagerTest" />
+        <item itemvalue="JUnit.ReverseWordsTest.exampleCases" />
+        <item itemvalue="JUnit.PairOfGlovesTest.tests" />
+        <item itemvalue="JUnit.RemoveConsicutiveWordTest.basicTest" />
+        <item itemvalue="JUnit.NumberUtilsTest" />
+        <item itemvalue="JUnit.NumberUtilsTest.exampleTests" />
       </list>
     </recent_temporary>
   </component>
