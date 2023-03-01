@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="34448553-0f3e-4c0d-bcd3-2b1544cd5b89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/kyu7/BuilderDS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/kyu7/JomoPipi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/kyu7/JomoPipi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/kyu7/JomoPipiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/kyu7/JomoPipiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/kyu7/ThinkingAndTestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/kyu7/ThinkingAndTestingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +29,12 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/ConsicutiveStrings.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/NumberUtils.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/PairOfGloves.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/SqProd2Sum.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/StringToCamelCase.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/SumTheSum.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/VersionManager.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/WhoLikeIt.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/decodewoof/SmartDogOwner.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/A.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Consonant.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Covfefe.java" root0="SKIP_INSPECTION" />
@@ -38,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/JomoPipi.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/Kata.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/LargestElements.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/People.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/RemoveConsicutiveWord.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/ReverseWords.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu7/RockPapper.java" root0="SKIP_INSPECTION" />
@@ -49,6 +54,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/other/AppUser.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/other/QuickSort.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/other/User.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/zero/kyu6/SqProd2SumTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/zero/kyu6/VersionManagerTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/zero/kyu7/ReverseWordsTest.java" root0="SKIP_INSPECTION" />
   </component>
@@ -80,24 +86,8 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PeopleTest">
-    <configuration name="PairOfGlovesTest.tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu6" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.PairOfGlovesTest" />
-      <option name="METHOD_NAME" value="tests" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PeopleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SmartDogOwnerTest.testGreet">
+    <configuration name="JomoPipiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +96,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.PeopleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.JomoPipiTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeopleTest.testSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JomoPipiTest.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -121,14 +111,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.PeopleTest" />
-      <option name="METHOD_NAME" value="testSample" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.JomoPipiTest" />
+      <option name="METHOD_NAME" value="test0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveConsicutiveWordTest.basicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JomoPipiTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -137,14 +127,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.RemoveConsicutiveWordTest" />
-      <option name="METHOD_NAME" value="basicTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.JomoPipiTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsTest.exampleCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JomoPipiTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +143,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.ReverseWordsTest" />
-      <option name="METHOD_NAME" value="exampleCases" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.JomoPipiTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartDogOwnerTest.testGreet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu6.decodewoof.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu6.decodewoof" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu6.decodewoof.SmartDogOwnerTest" />
+      <option name="METHOD_NAME" value="testGreet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PeopleTest" />
-        <item itemvalue="JUnit.PeopleTest.testSample" />
-        <item itemvalue="JUnit.ReverseWordsTest.exampleCases" />
-        <item itemvalue="JUnit.PairOfGlovesTest.tests" />
-        <item itemvalue="JUnit.RemoveConsicutiveWordTest.basicTest" />
+        <item itemvalue="JUnit.SmartDogOwnerTest.testGreet" />
+        <item itemvalue="JUnit.JomoPipiTest.test2" />
+        <item itemvalue="JUnit.JomoPipiTest.test3" />
+        <item itemvalue="JUnit.JomoPipiTest" />
+        <item itemvalue="JUnit.JomoPipiTest.test0" />
       </list>
     </recent_temporary>
   </component>
