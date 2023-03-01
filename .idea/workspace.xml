@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34448553-0f3e-4c0d-bcd3-2b1544cd5b89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zero/kyu7/JomoPipi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zero/kyu7/JomoPipi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/kyu7/JomoPipiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/kyu7/JomoPipiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/kyu7/ThinkingAndTestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/kyu7/ThinkingAndTestingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zero/kyu6/decodewoof/SmartDogOwnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zero/kyu6/decodewoof/SmartDogOwnerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu5/greedisgood/Greed.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/ConsicutiveStrings.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/NumberUtils.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/zero/kyu6/PairOfGloves.java" root0="SKIP_INSPECTION" />
@@ -86,7 +85,23 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmartDogOwnerTest.testGreet">
+  <component name="RunManager" selected="JUnit.GreedTest.testExample">
+    <configuration name="GreedTest.testExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-wars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zero.kyu5.greedisgood.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zero.kyu5.greedisgood" />
+      <option name="MAIN_CLASS_NAME" value="com.zero.kyu5.greedisgood.GreedTest" />
+      <option name="METHOD_NAME" value="testExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JomoPipiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-wars" />
       <extension name="coverage">
@@ -98,22 +113,6 @@
       <option name="PACKAGE_NAME" value="com.zero.kyu7" />
       <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.JomoPipiTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JomoPipiTest.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code-wars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zero.kyu7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zero.kyu7" />
-      <option name="MAIN_CLASS_NAME" value="com.zero.kyu7.JomoPipiTest" />
-      <option name="METHOD_NAME" value="test0" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GreedTest.testExample" />
         <item itemvalue="JUnit.SmartDogOwnerTest.testGreet" />
         <item itemvalue="JUnit.JomoPipiTest.test2" />
         <item itemvalue="JUnit.JomoPipiTest.test3" />
         <item itemvalue="JUnit.JomoPipiTest" />
-        <item itemvalue="JUnit.JomoPipiTest.test0" />
       </list>
     </recent_temporary>
   </component>
